@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>JFK Airport</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/main.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">New York Airport</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Add-Ons</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Map</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aboutus">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Welcome To The John F. Kennedy Airport!</div>
+                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">CHECK-OUT OUR SERVICES!</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">Here you can find all services that supports our website:</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <span class="fa-stack fa-4x">
+                            
+                            <i class="fa-solid fa-plane-departure" style="color: #ffc800;"></i>
+                        </span>
+                        <h4 class="my-3">Timetable</h4>
+                        <p class="text-muted">Here you can search for your flight number and get live information about your current flight status:</p>
+                        <form>
+                            <div class="inner-form">
+                              <header>
+                                <div class="travel-type-wrap">
+                                  <div class="item active">
+                                    <div class="group-icon">
+
+                                    </div>
+                                    <span>FLIGHT SEARCH BY DESTINATION/FLIGHT NUMBER</span>
+                                  </div>
+
+                                </div>
+                              </header>
+                              <div class="main-form" id="main-form">
+                                <div class="row">
+                                  <div class="input-wrap">
+                                    <div class="icon-wrap">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                                      </svg>
+                                    </div>
+                                    <div class="input-field">
+                                      <label>GOING TO</label>
+                                      <input type="text" id="destination" placeholder="Destination airport" />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row second">
+                                  <div class="input-wrap">
+                                    <div class="icon-wrap">
+                                        <svg class="svg-inline--fa fa-plane fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor" d="M480 192H365.71L260.61 8.06A16.014 16.014 0 0 0 246.71 0h-65.5c-10.63 0-18.3 10.17-15.38 20.39L214.86 192H112l-43.2-57.6c-3.02-4.03-7.77-6.4-12.8-6.4H16.01C5.6 128-2.04 137.78.49 147.88L32 256 .49 364.12C-2.04 374.22 5.6 384 16.01 384H56c5.04 0 9.78-2.37 12.8-6.4L112 320h102.86l-49.03 171.6c-2.92 10.22 4.75 20.4 15.38 20.4h65.5c5.74 0 11.04-3.08 13.89-8.06L365.71 320H480c35.35 0 96-28.65 96-64s-60.65-64-96-64z"></path>
+                                          </svg>
+                                    </div>
+                                    <div class="input-field">
+                                      <label>FLIGHT NUMBER</label>
+                                      <input type="text" id="fl_number" placeholder="FFXXX" />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row last col-md-4" style="margin:auto;    margin-top: 10px;
+                                ">
+                                  <button class="btn-search" style="background-color: #ffc800;border: 2px;
+                                  border-radius: 25px;
+                                  width: 150px;
+                                  margin: auto;" type="button" onclick="check()">Search</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                          <table id="flight_data" style="
+                            border-collapse: collapse;
+                            margin: auto;
+                            margin-top: 30px;
+                            font-size: 0.9em;
+                            font-family: sans-serif;
+                            min-width: 400px;
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                        "></table>
+
+                    </div>
+                    <div class="col-md-12" style="margin-top: 75px;">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-cloud-moon-rain" style="color: #ffc800;"></i>
+                        </span>
+                        <h4 class="my-3">Weather</h4>
+                        <p class="text-muted">Here you can find a current weather in the airport and also check forecast for the next 3 days:</p>
+                        <div id="ww_7a8f0fdf3f6e1" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":["wl712"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>Weather Data Source: <a href="https://sharpweather.com/weather_new_york/30_days/" id="ww_7a8f0fdf3f6e1_u" target="_blank">Weather 30 days forecast New York</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_7a8f0fdf3f6e1"></script>
+                    </div>
+                    <div class="col-md-12" style="margin-top: 75px;">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-square-parking" style="color: #ffc800;"></i>
+                        </span>
+                        <h4 class="my-3">Parking</h4>
+                        <p class="text-muted">Here you can book a parking lot for your car and see a total cost of the parking:</p>
+                        <form>
+                            <div class="inner-form">
+                              <header>
+                                <div class="travel-type-wrap">
+                                  <div class="item active">
+                                    <div class="group-icon">
+
+                                    </div>
+                                    <span>Calculating for a price:</span>
+                                  </div>
+
+                                </div>
+                              </header>
+                              <div class="main-form" id="main-form">
+                                <div class="row">
+                                  <div class="input-wrap">
+                                    <div class="icon-wrap">
+                                        <i class="fa-solid fa-calendar-days"></i>
+                                    </div>
+                                    <div class="input-field">
+                                      <label>Number of days:</label>
+                                      <input type="text" id="days_number" placeholder="Reserve from 2 days..." />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row second">
+                                  <div class="input-wrap">
+                                    <div class="icon-wrap">
+                                        <svg class="svg-inline--fa fa-plane fa-w-18" aria-hidden="true" data-prefix="fas" data-icon="plane" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor" d="M480 192H365.71L260.61 8.06A16.014 16.014 0 0 0 246.71 0h-65.5c-10.63 0-18.3 10.17-15.38 20.39L214.86 192H112l-43.2-57.6c-3.02-4.03-7.77-6.4-12.8-6.4H16.01C5.6 128-2.04 137.78.49 147.88L32 256 .49 364.12C-2.04 374.22 5.6 384 16.01 384H56c5.04 0 9.78-2.37 12.8-6.4L112 320h102.86l-49.03 171.6c-2.92 10.22 4.75 20.4 15.38 20.4h65.5c5.74 0 11.04-3.08 13.89-8.06L365.71 320H480c35.35 0 96-28.65 96-64s-60.65-64-96-64z"></path>
+                                          </svg>
+                                    </div>
+                                    <div class="input-field">
+                                      <label>Terminal:</label>
+                                      <input type="text" id="terminal_letter" placeholder="Terminal 1-8..." />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row last col-md-4" style="margin:auto;    margin-top: 10px;
+                                ">
+                                  <button class="btn-search" style="background-color: #ffc800;border: 2px;
+                                  border-radius: 25px;
+                                  width: 150px;
+                                  margin: auto;" type="button" onclick="calculate()">Calculate</button>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                          <table id="parking_data" style="
+                            border-collapse: collapse;
+                            margin: auto;
+                            margin-top: 30px;
+                            font-size: 0.9em;
+                            font-family: sans-serif;
+                            min-width: 400px;
+                            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+                        "></table>
+                        <div id="book_park"></div>
+                        <div id="conf_park"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Additional services</h2>
+                    <h3 class="section-subheading text-muted">There are some other services which you can use in the airport:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/rental_car.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Convenience at Its Best: The JFK Airport's Car Rental Services</div>
+                                <div class="portfolio-caption-subheading text-muted">Enjoy Seamless Travel with Car Rental Services at JFK Airport</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/lounge.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Relaxation and Rejuvenation: Unwind at JFK Airport's Premium Lounges</div>
+                                <div class="portfolio-caption-subheading text-muted">Indulge in Luxury and Comfort at JFK Airport's Premium Lounges</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/track.jpeg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Efficiency and Convenience: Navigating JFK Airport's Fast Track Services</div>
+                                <div class="portfolio-caption-subheading text-muted">Expedite Your Journey with Fast Track Services at JFK Airport</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Lines</div>
+                                <div class="portfolio-caption-subheading text-muted">Branding</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Southwest</div>
+                                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Window</div>
+                                <div class="portfolio-caption-subheading text-muted">Photography</div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">JFK Airport Map</h2>
+                    <h3 class="section-subheading text-muted">There is our detailed map of the airport:</h3>
+                </div>
+                <a href=""><img style="width:70vw; " src="./assets/img/about/map.png" alt=""></a>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Here you can find a developers of this web-site:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" style="margin: auto;">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/ava.jpeg" alt="..." />
+                            <h4>Nikita Lukash</h4>
+                            <p class="text-muted">Lead Developer and Designer</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">This website was developed for non-commercial use, and would be only used as Bachelor Diploma Project.</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="aboutus">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">JFK Airport Information:</h2>
+                    <h3 class="section-subheading text-muted">There is our detailed address and info:</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4" >
+                        <iframe width="350" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=648&amp;height=397&amp;hl=en&amp;q=%20JFK%20Airport+(John%20F.%20Kennedy%20International%20Airport)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+
+                    </div>
+                    <div class="col-lg-4" >
+                    Welcome to JFK Airport!
+                    
+                    Located in Queens, New York, JFK Airport is one of the busiest and most iconic airports in the world. As the primary international gateway to the United States, we are dedicated to providing exceptional services to millions of travelers each year.
+                    <br>
+                    <b> Address: </b> <br>
+                    John F. Kennedy International Airport
+                    Jamaica, NY 11430   
+                    United States        
+                    </div>
+            
+                </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <h3 class="section-subheading text-muted">Here you can leave your contact information and we will contact you ASAP:</h3>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>       
+                            <br />
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Nikita Lukash 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Convenience at Its Best: The JFK Airport's Car Rental Services</h2>
+                                    <p class="item-intro text-muted">Enjoy Seamless Travel with Car Rental Services at JFK Airport</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/rental_car.png" alt="..." />
+                                    <p>When it comes to convenient travel options, John F. Kennedy International Airport (JFK) has got you covered. In this article, we'll explore the wide range of car rental services available at JFK Airport, offering travelers the freedom to explore the city at their own pace. Whether you're a visitor or a local, renting a car at JFK is a hassle-free way to navigate the city and its surrounding areas.</p>
+                                    <p>Easy Booking Process:
+                                        JFK Airport boasts several car rental agencies conveniently located within its terminals. Travelers can easily book their preferred vehicle online prior to their arrival or visit the rental counters directly upon landing. With a quick reservation process and an extensive fleet of cars to choose from, renting a car at JFK is a breeze.
+                                        Diverse Car Selection:
+                                        From compact cars to spacious SUVs and luxury vehicles, JFK Airport's car rental services offer a wide range of options to suit different preferences and travel needs. Whether you're traveling alone, with family, or on a business trip, there's a perfect vehicle waiting for you at JFK.
+                                        Competitive Rates:
+                                        Car rental companies at JFK Airport understand the importance of affordability. They strive to offer competitive rates, allowing travelers to find a rental that fits their budget. With various pricing options and deals available, renting a car from JFK Airport is a cost-effective choice for exploring New York City and its surroundings.
+                                        Convenience and Flexibility:
+                                        Having your own rental car grants you the freedom to explore the city at your own pace. You can conveniently drive to popular attractions such as Times Square, Central Park, or the Statue of Liberty, or venture outside the city to discover neighboring destinations like Long Island or the Hamptons. With a rental car, you're in control of your itinerary and can maximize your time in the Big Apple.
+                                        Dedicated Support:
+                                        JFK Airport's car rental services provide dedicated customer support to ensure a smooth experience. Whether you need assistance with booking, vehicle selection, or any other queries, friendly and knowledgeable staff are available to help. Additionally, most car rental agencies offer 24/7 roadside assistance, providing peace of mind throughout your journey.</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Servise
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Relaxation and Rejuvenation: Unwind at JFK Airport's Premium Lounges</h2>
+                                    <p class="item-intro text-muted">Indulge in Luxury and Comfort at JFK Airport's Premium Lounges</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/lounge.jpeg" alt="..." />
+                                    <p>Introduction:
+                                        Traveling can be a tiring experience, but John F. Kennedy International Airport (JFK) ensures that passengers have a chance to relax and unwind before their flights. In this article, we'll explore the premium lounges available at JFK Airport, providing travelers with a haven of tranquility and luxury amidst the bustling terminal.
+                                        
+                                        Access to Exclusive Amenities:
+                                        JFK Airport's premium lounges offer an array of exclusive amenities to enhance your pre-flight experience. From comfortable seating and private workstations to complimentary Wi-Fi and charging stations, these lounges cater to the needs of modern travelers. Some lounges even provide shower facilities, allowing you to freshen up before or after a long journey.
+                                        Culinary Delights (continued):
+                                        Whether you prefer a hearty meal or a quick bite, the lounges at JFK Airport provide a range of dining options to satisfy your cravings. From fresh salads and sandwiches to delectable desserts and a variety of beverages, these lounges ensure that your culinary experience is nothing short of exceptional.
+                                        Relaxation and Wellness:
+                                        Escape the hustle and bustle of the airport by unwinding in the serene atmosphere of JFK Airport's premium lounges. Many lounges offer spa services, including massages and facials, allowing you to pamper yourself and alleviate travel-related stress. Additionally, some lounges provide quiet areas for meditation or yoga, enabling you to find moments of tranquility amidst your journey.
+                                        Business and Productivity:
+                                        For business travelers, JFK Airport's premium lounges offer well-equipped business centers and meeting rooms, providing a productive environment to catch up on work or conduct meetings. With high-speed internet access, printing facilities, and comfortable workstations, you can stay connected and make the most of your time at the airport.
+                                        VIP Treatment and Priority Services:
+                                        Access to premium lounges often comes with exclusive perks, such as dedicated check-in counters, expedited security screenings, and priority boarding. These services enhance your overall travel experience and ensure a seamless journey from start to finish.
+                                        </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Service
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Efficiency and Convenience: Navigating JFK Airport's Fast Track Services</h2>
+                                    <p class="item-intro text-muted">Expedite Your Journey with Fast Track Services at JFK Airport</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/track.jpeg" alt="..." />
+                                    <p>Fast Track Security:
+                                        One of the major advantages of utilizing fast track services at JFK Airport is bypassing the regular security lines. Fast track security lanes allow you to expedite the security screening process, minimizing wait times and ensuring a quicker passage through the airport. This service is particularly beneficial for travelers with tight connections or those who value efficiency.
+                                        Dedicated Immigration Channels:
+                                        JFK Airport's fast track services also extend to immigration procedures. With dedicated immigration channels, eligible passengers can bypass the regular queues and experience a swift entry or exit process. This service is especially valuable for international travelers, allowing them to save time and avoid lengthy immigration lines.
+                                        Personalized Assistance:
+                                        Some fast track services at JFK Airport offer personalized assistance from dedicated staff members who guide you through the airport procedures. These knowledgeable professionals help expedite your journey by providing guidance, answering queries, and ensuring a seamless travel experience. Whether you need assistance with check-in, security, or immigration, these experts are there to assist you every step of the way.
+                                        Priority Boarding:
+                                        Fast track services often include priority boarding privileges, allowing you to board the aircraft ahead of other passengers. This ensures that you can settle into your seat and stow your belongings without feeling rushed. Priority boarding is especially advantageous for travelers with carry-on luggage or specific seating preferences.</p>
+                                        Customized Packages:
+                                        Fast track services at JFK Airport offer a range of customizable packages to cater to individual needs. Whether you're a frequent traveler seeking long-term benefits or a one-time traveler looking for a specific service, you can choose a package that suits your requirements. These packages often come with added benefits such as discounted parking, access to private lounges, and personalized assistance throughout your journey.
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Service
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Lines
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Branding
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Southwest
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Website Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Window
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Photography
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
